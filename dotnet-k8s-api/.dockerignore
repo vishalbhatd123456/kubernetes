@@ -1,0 +1,9 @@
+bin/
+obj/
+publish/
+.git/
+.vs/
+.vscode/
+Dockerfile
+README.md
+k8s/
