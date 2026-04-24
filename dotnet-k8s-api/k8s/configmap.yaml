@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dotnet-k8s-api-config
+  namespace: dotnet-k8s-api
+data:
+  App__Version: "1.0.0"
+  ASPNETCORE_ENVIRONMENT: "Production"
